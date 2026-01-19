@@ -235,3 +235,54 @@ nav ul li a{
     "gcard1 gcard3 gcard3"
      "gcard4 gcard4 gcard5";
 }
+
+/* episode section */
+.episode-section{
+  background-color:rgba(26, 11, 46, 1) ;
+}
+.episode-box{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+.episode-box h2{
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.video{
+  background:rgba(37, 13, 68, 1) ;
+  border-radius: 24px;
+}
+iframe{
+  border-top-left-radius:24px ;
+  border-top-right-radius: 24px;
+}
+.all-video{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  gap: 1.9rem;
+}
+.video-text{
+  padding: 24px;
+}
+.video-text h5{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: .8rem;
+}
+.video-text p{
+   color:rgba(255, 255, 255, 0.65)  ;
+   margin-bottom: .8rem;
+}
+.ifram-time{
+  color: #00FF88;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
