@@ -344,3 +344,49 @@ iframe{
 .circle-img img{
   padding: 12px 11px;
 }
+
+/* footer desing */
+footer{
+    background-color:#1A0B2E ;
+    background-image: url(../assets/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top:7.5rem ;
+    padding-bottom: 7.5rem;
+
+
+}
+.footer-content{
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  margin-top: 2.5rem;
+  
+  
+}
+.footer-logo{
+  display: flex;
+  justify-content: center;
+}
+.footer-logo{
+  margin-bottom: 2rem;
+}
+.footer-content p{
+  color:rgba(255, 255, 255, 0.65)  ;
+  margin-top: 2rem;
+  text-align: center;
+
+}
+.footer-content span{
+  color:rgba(255, 255, 255, 0.65)  ;
+  margin-right: 2rem;
+  
+}
+.footer-content span>img{
+  margin-right: .5rem;
+}
+.flex-podcast{
+  display: flex;
+  justify-content: center;
+}
