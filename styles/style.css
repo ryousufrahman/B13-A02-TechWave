@@ -170,3 +170,68 @@ nav ul li a{
 
   color:rgba(255, 255, 255, 0.8) ;
 }
+
+/* choose-section */
+
+.why-choose-section{
+  background-color: #230E3D ;
+}
+.choose-box{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+.choose-box h2{
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2.5rem;
+
+}
+.gcard{
+  background-color: rgba(53, 17, 101, 0.4);
+}
+.gcard{
+  padding: 2.5rem;
+ border-radius: 2.5rem;
+}
+.gcard1{
+  padding-top: 6.65rem;
+  padding-bottom: 6.65rem;
+}
+ .gcard h4{
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+ }
+ .gcard p{
+  color:rgba(255, 255, 255, 0.65)  ;
+ }
+.gcard1{
+  grid-area: gcard1;
+}
+.gcard2{
+  grid-area: gcard2;
+}
+.gcard3{
+  grid-area: gcard3;
+}
+.gcard4{
+  grid-area: gcard4;
+}
+.gcard5{
+  grid-area: gcard5;
+}
+
+.grid-cards{
+  display: grid;
+  gap: 1.9rem;
+  grid-template-areas: 
+   "gcard1 gcard2 gcard2"
+    "gcard1 gcard3 gcard3"
+     "gcard4 gcard4 gcard5";
+}
