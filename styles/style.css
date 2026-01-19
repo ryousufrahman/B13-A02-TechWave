@@ -13,6 +13,7 @@
 }
 header{
   background-color:#1A0B2E ;
+  
 }
 
 /* nav style */
@@ -88,6 +89,7 @@ nav ul li a{
   background-image: url(../assets/hero-bg.png);
   background-position: center;
   background-repeat: no-repeat;
+  padding-bottom: 6.25rem;
 }
 
 
@@ -114,4 +116,57 @@ nav ul li a{
   border-radius: 1000px;
   font-weight: 600;
   margin-left: 8px;
+}
+/* about-section */
+
+.about-section{
+  background-color:#1A0B2E ;
+}
+.about-box{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 3.25rem;
+  padding-bottom: 7.5rem;
+}
+.about-text h2{
+  font-size:3rem ;
+  color: white;
+  font-weight: bold;
+  margin-bottom:16px ;
+}
+.about-text p{
+  color:rgba(255, 255, 255, 0.8) ;
+  line-height: 25px;
+}
+.aboutp1{
+  margin-bottom:1.5rem ;
+  margin-top: 1rem;
+  
+}
+.aboutp2{
+  margin-bottom: 4rem;
+}
+.about-hr{
+  border: none;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 10%);
+
+}
+.about-cards-box{
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  gap: 5rem;
+}
+.card h4{
+  color: #00FF88;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1rem;
+
+}
+.card p{
+
+  color:rgba(255, 255, 255, 0.8) ;
 }
