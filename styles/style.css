@@ -85,6 +85,7 @@ nav ul li a{
   align-items: center;
   justify-content: center;
   background-image: url(../assets/hero-bg.png);
+  
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 6.25rem;
@@ -390,3 +391,57 @@ footer{
   display: flex;
   justify-content: center;
 }
+
+
+@media screen and (max-width: 576px){
+   nav{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+   }
+    .nav-items , .nav-btn{
+      display: none;
+    }
+    .nav-logo{
+      width: 157px;
+      height: 20px;
+    }
+    .nav-logo img{
+      width: 100%;
+    }
+    .hamburger-icon{
+      display: inline;
+    }
+
+    .hero-section{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .main-hero-img{
+      width: 200px;
+      height: 200px;
+    }
+    .at-middle-of-img{
+      height: 80px;
+      left: 35%;
+  
+
+    }
+    .at-top-of-img{
+      top: -1%;
+      right: 1%;
+    }
+    .hero-section{
+      background-size: 100%;
+      background-position: top;
+      padding-bottom: 2.5rem;
+    
+
+    }
+    .about-section{
+      
+    }
+
+}
+  
