@@ -437,9 +437,15 @@ iframe{
 
 
 @media screen and (max-width: 576px){
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    width: 100%;
+  }
    nav{
-    margin-left: 20px;
-    margin-right: 20px;
+    
     padding-top: 18px;
     padding-bottom: 18px;
     align-items: center;
@@ -457,6 +463,10 @@ iframe{
     }
     .hamburger-icon{
       display: inline;
+      padding-right: 20px;
+    }
+    .nav-logo{
+      padding-left: 20px;
     }
 
     .hero-section{
