@@ -54,10 +54,41 @@ nav ul li a{
   cursor: pointer;
   border-radius: 1000px;
   color: white;
-  transition:;
+  animation-name: spin;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  
   
 
 }
+  @keyframes spin{
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  .primary-btn:hover{
+    animation-play-state: paused;
+  }
+ 
+
+  
+
+
+.hero-btn2{
+  cursor: pointer;
+  transition-property: width;
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+.hero-btn2:hover{
+  width: 250px;
+  font-size: 20px;
+} 
 .hero-background{
   position: relative;
 
@@ -77,6 +108,11 @@ nav ul li a{
   position: absolute;
   top: 1%;
   right: 10%;
+  animation-name: spin;
+  animation-name: spin;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 
 }
 
@@ -566,11 +602,9 @@ footer{
  }
  footer{
   padding-top: 20px;
-  padding-top: 20px;
-  background-image: url(../assets/Image.png);
-  
+  padding-bottom: 10px;
 
-  padding-bottom: 20px;
+  background-image: url(../assets/Image.png);
   background-size: 100%;
   background-position: center;
  }
@@ -579,7 +613,11 @@ footer{
     height: 32px;
  }
  .footer-content{
-  padding: 20px;
+
+  padding-top: 24px;
+ }
+ .footer-content p{
+  padding-bottom: 40px;
  }
 
 }
