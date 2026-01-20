@@ -437,12 +437,19 @@ iframe{
 
 
 @media screen and (max-width: 576px){
+    section{
+      max-width: 100vw;
+      margin: 0;
+      padding: 0;
+    }
   
    nav{
     
     padding-top: 18px;
     padding-bottom: 18px;
     align-items: center;
+    padding-left: 0;
+    padding-right: 0;
   
    }
     .nav-items , .nav-btn{
@@ -496,8 +503,8 @@ iframe{
     }
     .about-section{
       padding-top:0px ;
-      padding-left: 20px;
-      padding-right: 20px;
+    
+      
       padding-bottom: 20px;
       
       
@@ -505,6 +512,8 @@ iframe{
     }
     .about-box{
       padding-bottom: 40px;
+      padding-left: 10px;
+      padding-right: 10px;
     }
    .about-section h2{
      font-size: 2rem;
@@ -524,13 +533,12 @@ iframe{
    .about-cards-box h4{
     font-size: 2rem;
    }
-   .why-choose-section{
-    padding-left: 20px;
-    padding-right: 20px;
-   }
+   
    .choose-box{
     padding-top:40px ;
     padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
    }
    .grid-cards{
     grid-template-areas: 
@@ -576,12 +584,12 @@ iframe{
     width: 97%;
    }
    .video iframe{
-    width: 100%;
+      max-width: 100%;
    }
-   .host-section{
-    padding-left: 20px;
-    padding-right: 20px;
-    
+   
+   .host-content{
+    padding-left: 10px;
+    padding-right: 10px;
    }
    
 
@@ -623,6 +631,7 @@ iframe{
 
   background-image: url(../assets/Image.png);
   background-size: 100%;
+  
   background-position: center;
  }
  .footer-logo img{
@@ -636,8 +645,9 @@ iframe{
  .footer-content p{
   padding-bottom: 40px;
  }
-  body{
+  html{
     width: 100vw;
+    overflow-x: hidden;
   }
 
 
