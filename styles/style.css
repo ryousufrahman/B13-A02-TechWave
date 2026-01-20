@@ -437,13 +437,7 @@ iframe{
 
 
 @media screen and (max-width: 576px){
-  *{
-    margin: 0;
-    padding: 0;
-  }
-  body{
-    width: 100%;
-  }
+  
    nav{
     
     padding-top: 18px;
