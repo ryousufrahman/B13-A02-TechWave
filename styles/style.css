@@ -620,5 +620,28 @@ footer{
   padding-bottom: 40px;
  }
 
+
+
+
 }
+@media  (min-width: 577px) and (max-width:992px){
+  .about-cards-box{
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 1.5rem;
+    padding-right: 20px;
+  }
+  .all-video{
+    
+    grid-template-columns: repeat(1 , 1fr);
+
+
+
   
+}
+}
+
+@media  (min-width: 993px) and (max-width:1050px){
+  .all-video{
+    grid-template-columns: repeat(2 , 1fr);
+  }
+}
