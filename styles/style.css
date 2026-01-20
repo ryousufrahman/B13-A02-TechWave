@@ -467,7 +467,8 @@ footer{
    }
    .about-cards-box{
     grid-template-columns: repeat(2 ,1fr);
-    gap: 40px;
+    gap: 1.5rem;
+    padding-right: 15px;
     
    }
    .why-choose-section{
