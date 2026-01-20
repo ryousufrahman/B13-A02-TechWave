@@ -320,7 +320,7 @@ iframe{
   color: white;
 }
 .host-details p{
-   color:rgba(255, 255, 255, 0.65)  ;
+   color:rgba(255, 255, 255, 0.60)  ;
    margin-top:1rem ;
    margin-bottom: 1rem;
 }
@@ -399,6 +399,7 @@ footer{
     margin-right: 20px;
     padding-top: 18px;
     padding-bottom: 18px;
+    align-items: center;
    }
     .nav-items , .nav-btn{
       display: none;
@@ -435,13 +436,135 @@ footer{
     .hero-section{
       background-size: 100%;
       background-position: top;
-      padding-bottom: 2.5rem;
+      padding-bottom: 20px;
+      
     
 
     }
+    .hero-text h1{
+      font-size: 40px;
+    }
     .about-section{
+      padding-top:0px ;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      
+      
       
     }
+    .about-box{
+      padding-bottom: 40px;
+    }
+   .about-section h2{
+     font-size: 2rem;
+   }
+   .about-cards-box{
+    padding-top: 20px;
+   }
+   .about-cards-box{
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 40px;
+    
+   }
+   .why-choose-section{
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+   .choose-box{
+    padding-top:40px ;
+    padding-bottom: 40px;
+   }
+   .grid-cards{
+    grid-template-areas: 
+    "gcard1"
+    "gcard2" 
+    "gcard3"
+    "gcard4"
+    "gcard5";
+    gap: 16px;
+   }
+   .gcard{
+    padding: 24px;
+   }
+   .gcard h4{
+    font-size: 20px;
+   }
+   .choose-box h2{
+    font-size: 32px;
+    margin-bottom: 16px;
+   }
+   .episode-box{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+   }
+   .episode-box h2{
+    font-size: 32px;
+    margin-bottom: 24px;
+   }
+   .all-video{
+    grid-template-columns: repeat(1 , 1fr);
+    padding-left:20px ;
+    padding-right: 20px;
+   }
+   .video h5{
+    font-size: 20px;
+   }
+   .host-section{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+   }
+
+   .host-flex{
+    flex-direction: column;
+    
+    
+   }
+   .host-details{
+    text-align: center;
+   }
+   .host-social{
+    justify-content: center;
+   }
+   .host-content{
+    padding-bottom: 40px;
+   }
+ .host-content h2{
+  font-size:32px ;
+ }
+ .host-details h3{
+  font-size:24px ;
+ }
+ .footer-flex{
+  justify-content: center;
+ }
+ .flex-podcast{
+  justify-content: center;
+ }
+ .flex-podcast-item{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+ }
+ footer{
+  padding-top: 20px;
+  padding-top: 20px;
+  
+
+  padding-bottom: 20px;
+  background-size: cover;
+  background-position: bottom;
+ }
+ .footer-logo img{
+    width: 219px;
+    height: 32px;
+ }
+ .footer-content{
+  padding: 20px;
+ }
 
 }
   
