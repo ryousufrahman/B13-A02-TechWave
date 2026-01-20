@@ -462,6 +462,8 @@ footer{
    }
    .about-cards-box{
     padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
    }
    .about-cards-box{
     grid-template-columns: repeat(2 ,1fr);
@@ -517,7 +519,7 @@ footer{
     
    }
    .video{
-    width: 95%;
+    width: 97%;
    }
    .video iframe{
     width: 100%;
