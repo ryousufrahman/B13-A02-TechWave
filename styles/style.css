@@ -54,6 +54,7 @@ nav ul li a{
   cursor: pointer;
   border-radius: 1000px;
   color: white;
+  transition:;
   
 
 }
@@ -510,12 +511,20 @@ footer{
    }
    .video h5{
     font-size: 20px;
+    
+   }
+   .video{
+    width: 400px;
+   }
+   .video iframe{
+    width: 100%;
    }
    .host-section{
     padding-left: 20px;
     padding-right: 20px;
     
    }
+   
 
    .host-flex{
     flex-direction: column;
