@@ -462,8 +462,8 @@ footer{
    }
    .about-cards-box{
     padding-top: 20px;
-    padding-left: 10px;
     padding-right: 10px;
+
    }
    .about-cards-box{
     grid-template-columns: repeat(2 ,1fr);
@@ -567,11 +567,12 @@ footer{
  footer{
   padding-top: 20px;
   padding-top: 20px;
+  background-image: url(../assets/Image.png);
   
 
   padding-bottom: 20px;
-  background-size: cover;
-  background-position: bottom;
+  background-size: 100%;
+  background-position: center;
  }
  .footer-logo img{
     width: 219px;
