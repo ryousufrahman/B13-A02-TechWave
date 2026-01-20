@@ -506,15 +506,16 @@ footer{
    }
    .all-video{
     grid-template-columns: repeat(1 , 1fr);
-    padding-left:20px ;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
    }
    .video h5{
     font-size: 20px;
     
    }
    .video{
-    width: 400px;
+    width: 95%;
    }
    .video iframe{
     width: 100%;
