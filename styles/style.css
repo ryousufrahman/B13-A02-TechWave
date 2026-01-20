@@ -428,6 +428,9 @@ footer{
   display: flex;
   justify-content: center;
 }
+iframe{
+  width: 100%;
+}
 
 
 @media screen and (max-width: 576px){
@@ -499,13 +502,17 @@ footer{
    .about-cards-box{
     padding-top: 20px;
     padding-right: 10px;
+    
 
    }
    .about-cards-box{
     grid-template-columns: repeat(2 ,1fr);
-    gap: 1.5rem;
-    padding-right: 20px;
+    gap: 1rem;
+    padding-right: 40px;
     
+   }
+   .about-cards-box h4{
+    font-size: 2rem;
    }
    .why-choose-section{
     padding-left: 20px;
@@ -619,6 +626,9 @@ footer{
  .footer-content p{
   padding-bottom: 40px;
  }
+  body{
+    width: 100vw;
+  }
 
 
 
@@ -638,10 +648,14 @@ footer{
 
   
 }
-}
 
-@media  (min-width: 993px) and (max-width:1050px){
-  .all-video{
-    grid-template-columns: repeat(2 , 1fr);
-  }
+  .grid-cards{
+    grid-template-areas: 
+    "gcard1"
+    "gcard2" 
+    "gcard3"
+    "gcard4"
+    "gcard5";
+    gap: 16px;
+   }
 }
